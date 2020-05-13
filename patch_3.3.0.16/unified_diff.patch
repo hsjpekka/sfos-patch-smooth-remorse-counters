@@ -1,0 +1,11 @@
+--- /usr/lib/qt5/qml/Sailfish/Silica/private/RemorseBase.qml
++++ /usr/lib/qt5/qml/Sailfish/Silica/private/RemorseBase.qml
+@@ -120,7 +120,7 @@
+             }
+ 
+             radius: background.radius
+-            width: Math.round((_seconds - _secsRemaining)/_seconds * background.width)
++            width: Math.round((_timeout - _msRemaining)/_timeout * background.width) // ==> patch smooth-remorse-counter
+             roundedCorners: _secsRemaining === 0 ? BubbleBackground.AllCorners
+                                                  : BubbleBackground.TopRight | BubbleBackground.BottomRight
+ 
