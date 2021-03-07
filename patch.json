@@ -1,0 +1,14 @@
+{
+	"id": 219, 
+    "description": "Changes remorse counters to run continuously, not stepwise. Modifies RemorseBase.qml.",
+	"last_updated": "2020-05-12T21:47:40.464", 
+	"name": "smooth-remorse-counters", 
+	"display_name": "Smoothly running remorse counters", 
+    "category": "Silica",
+	"author": "hsjpekka", 
+	"discussion": "", 
+	"donations": "", 
+	"sources": "", 
+    "version": "1.0",
+	"compatible": ["3.3.0.16"]
+}
