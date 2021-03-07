@@ -1,6 +1,0 @@
-.gitignore
-orig/
-modified/
-*.zip
-_*
-patch.json
